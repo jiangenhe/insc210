@@ -1,0 +1,56 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+header .logo {
+    width: 233px;
+    height: 54px;
+}
+
+nav {
+    background: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+
+}
+
+aside {
+    flex: 20%;
+    background: #f1f1f1;
+    padding: 15px;
+}
+
+.course-information {
+    flex: 80%;
+    padding: 15px;
+}
+
+#assignment-table table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background: #dddddd;
+    padding: 15px;
+}
